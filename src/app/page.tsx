@@ -12,7 +12,7 @@ export default async function Home() {
       </header>
 
       {/* Grid that expands to the remaining space left on the screen, both width and heigh */}
-      <div className="grid grid-cols-2 gap-6 flex-1 w-full h-full">
+      <div className="grid md:grid-cols-2 gap-6 flex-1 w-full h-full">
         <Widget>
           <Tavla />
         </Widget>
