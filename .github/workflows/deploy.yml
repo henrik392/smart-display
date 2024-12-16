@@ -37,7 +37,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "henrikkvamm-smart-displ-39"
+          project: "smart-display"
           entrypoint: "./server.cjs"
           root: ".next/standalone"
           
