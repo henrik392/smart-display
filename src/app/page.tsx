@@ -4,10 +4,10 @@ import Widget from "@/components/Widget";
 
 export default async function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-start justify-start bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white px-12 py-8">
+    <main className="flex min-h-screen flex-col items-start justify-start bg-[#121212] text-white px-12 py-8">
       <header className="mb-6">
         <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem]">
-          Kringsjåvegen <span className="text-[hsl(280,100%,70%)]">61</span>
+          Kringsjåvegen <span className="text-[#FF5959]">61</span>
         </h1>
       </header>
 
@@ -16,7 +16,7 @@ export default async function Home() {
         <Widget>
           <Tavla />
         </Widget>
-        <Widget title="Strømpris">
+        <Widget title="⚡ Strømpris">
           <ElectricityPrice />
         </Widget>
       </div>
