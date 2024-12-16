@@ -1,0 +1,17 @@
+{
+  "deploy": {
+    "project": "5f9cd92d-79ac-4a23-a292-e36a62709fd6",
+    "exclude": [
+      "**/node_modules",
+      "**/node_modules"
+    ],
+    "include": [
+      ".next",
+      "public"
+    ],
+    "entrypoint": "jsr:@deno/nextjs-start"
+  },
+  "unstable": [
+    "unsafe-proto"
+  ]
+}
